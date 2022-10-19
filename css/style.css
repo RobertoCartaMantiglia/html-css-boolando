@@ -42,6 +42,9 @@ footer{
     color: white;
     height: 8rem;
 }
+.flex{
+    display: flex;
+}
 .container{
     height: 100%;
     width: 80%;
@@ -53,37 +56,38 @@ footer{
     margin: 0 auto;
     align-items: center;
 }
-.flex{
-    display: flex;
+
+.clothes-section{
+    flex-wrap: wrap;
 }
 .main-content{
     width: 80%;
     height: 1000px;    
 }
+/* card e transizione */
 .outfit{
     width: 32%;
     height: 50%;
     position: relative;
 }
-.outfit:hover .outfit-img-hover{
-    display: block;
-}
 .outfit-img{
     width: 20rem;
     height: 80%;
+}   
+.outfit:hover .outfit-img-hover{
+    display: block;
 }
 .outfit-img-hover{
     display: none;
     position: absolute;
+    /* per sovrapporre le 2 img ho dato la stessa w e h della img sorella e la position absolute L/T=0 */
     left: 0;
     top: 0;
     width: 20rem;
     height: 80%;
     z-index: 2;
 }
-.clothes-section{
-    flex-wrap: wrap;
-}
+
 .discount{
     background-color: red;
     position: absolute;
