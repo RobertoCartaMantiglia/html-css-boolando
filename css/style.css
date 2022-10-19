@@ -65,9 +65,21 @@ footer{
     height: 50%;
     position: relative;
 }
+.outfit:hover .outfit-img-hover{
+    display: block;
+}
 .outfit-img{
     width: 20rem;
     height: 80%;
+}
+.outfit-img-hover{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20rem;
+    height: 80%;
+    z-index: 2;
 }
 .clothes-section{
     flex-wrap: wrap;
