@@ -63,6 +63,7 @@ footer{
 .outfit{
     width: 32%;
     height: 50%;
+    position: relative;
 }
 .outfit-img{
     width: 20rem;
@@ -70,6 +71,22 @@ footer{
 }
 .clothes-section{
     flex-wrap: wrap;
+}
+.discount{
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    bottom: 8rem;
+    color: white;
+    padding: 0.15rem;
+}
+.sostenibilità{
+    background-color: #027d01;
+    position: absolute;
+    bottom: 8rem;
+    left: 2.5rem;
+    color: white;
+    padding: 0.15rem;
 }
 #img-boolean{
     height: 2rem;
