@@ -9,6 +9,8 @@ header{
     justify-content: space-between;
     align-items: center;
     color: white;
+    padding-top: 1.5rem;
+    margin-bottom: 3.5rem;
 }
 nav div.gender,
 nav div.shop{
@@ -26,18 +28,42 @@ nav ul li{
     display: inline;
     font-size: 1.2rem;
     margin: 0 0.3rem;
+    font-weight: bold;
+}
+article img{
+    flex-basis: 30%;
+}
+.container{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-container{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
 }
 .flex{
     display: flex;
 }
-
-.container{
-    height: 100%;
-    width: 80%;
+.main-content{
     border: 1px solid black;
-    margin: 0 auto;
-    align-items: center;
-    padding-top: 1rem;
+    width: 80%;
+    height: 1000px;
+    background-color: aqua;
+    
+}
+.outfit{
+    width: 32%;
+    height: 50%;
+}
+.outfit-img{
+    width: 20rem;
+    height: 80%;
+}
+.clothes-section{
+    flex-wrap: wrap;
 }
 #img-boolean{
     height: 2rem;
